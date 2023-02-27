@@ -1,0 +1,22 @@
+<app-tabs [tabsArray]="tabs" (onTabChange)="tabChange($event)"></app-tabs>
+
+<div class="row mt-4">
+    <div class="col-12" *ngIf="activatedTabIndex == 0">
+        <app-description></app-description>
+    </div>
+    <div class="col-12" *ngIf="activatedTabIndex == 1">
+        <app-avalilable-units></app-avalilable-units>
+    </div>
+    <div class="col-12" *ngIf="activatedTabIndex == 2">
+        <app-location></app-location>
+    </div>
+    <div class="col-12" *ngIf="activatedTabIndex == 3">
+        <p>test4</p>
+    </div>
+    <div class="col-12" *ngIf="activatedTabIndex == 4">
+        <p>test5</p>
+    </div>
+    <div class="col-12" *ngIf="activatedTabIndex == 5">
+        <p>test6</p>
+    </div>
+</div>

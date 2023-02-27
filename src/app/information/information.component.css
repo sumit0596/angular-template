@@ -1,0 +1,9 @@
+.enquire_btn {
+    margin: 20px;
+}
+
+.enquire_btn button {
+    border-radius: 0;
+    padding: 15px;
+    width: 100%;
+}

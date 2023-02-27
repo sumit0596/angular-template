@@ -1,0 +1,41 @@
+.profile__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.profile__img img {
+    width: 100%;
+}
+
+.userProfile__section {
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.coantact__details p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.coantact__details h5 {
+    font-size: 20px;
+    color: #ef6475;
+}
+
+fa-icon.ng-fa-icon {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .userProfile__section {
+        margin-top: 40px;
+    }
+}

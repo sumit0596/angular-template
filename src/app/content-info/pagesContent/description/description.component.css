@@ -1,0 +1,88 @@
+.description_box .main_c {
+    color: #b4b2b2;
+}
+
+.rating__Box {
+    color: #95c8af;
+}
+
+.rating__Box p {
+    margin-bottom: 2px;
+}
+
+.location_box {
+    display: flex;
+}
+
+.location_box>div {
+    display: flex;
+    margin-right: 15px;
+}
+
+.location_box>div>p:nth-child(2) {
+    margin-left: 5px;
+    color: #b4b2b2;
+}
+
+.location {
+    margin: 15px 0;
+}
+
+.location h5 {
+    margin-bottom: 20px;
+}
+
+.gps_cont {
+    display: flex;
+    gap: 30px;
+}
+
+.gpsbox h5 {
+    margin-bottom: 20px;
+}
+
+.gps_cont>div {
+    display: flex;
+    color: #b4b2b2;
+}
+
+.gps_cont>div>p:nth-child(1) {
+    margin-right: 5px;
+}
+
+.desc__box {
+    border-top: 1px solid #b4b2b2;
+    color: #b4b2b2;
+}
+
+.desc__box p {
+    margin-top: 20px;
+}
+
+.rating__Box .stars .ng-fa-icon {
+    margin-right: 10px;
+}
+
+.gpsbox {
+    margin-bottom: 20px;
+}
+
+.title h3 {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.title h3::before {
+    content: '';
+    width: 9%;
+    height: 4px;
+    background: #dc3545 !important;
+    position: absolute;
+    bottom: -5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .location_box {
+        flex-direction: column;
+    }
+}

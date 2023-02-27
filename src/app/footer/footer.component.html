@@ -1,0 +1,73 @@
+<footer class="text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container-fluid px-5 py-5">
+        <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0" *ngFor="let fmenu of footerLinkArray">
+                <h5>{{ fmenu.title }}</h5>
+
+                <ul class="list-unstyled mb-0">
+                    <li *ngFor="let flink of fmenu.linkspath">
+                        <a href="#!" class="text-dark">{{ flink.subTitle }}</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="container-fluid px-5 copyright">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="p-3">
+                    © {{currentYear}} RedefinePropertise. All right reserved
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Grid container -->
+                <div class="container">
+                    <!-- Section: Social media -->
+                    <section class="social__container">
+                        <p>Follow Us:</p>
+                        <!-- Facebook -->
+                        <a class="btn btn-link btn-floating btn-lg" href="#!" role="button" data-mdb-ripple-color="dark">
+                            <fa-icon [icon]="faFacebook"></fa-icon>
+                        </a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-link btn-floating btn-lg" href="#!" role="button" data-mdb-ripple-color="dark">
+                            <fa-icon [icon]="faTwitter"></fa-icon>
+                        </a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-link btn-floating btn-lg" href="#!" role="button" data-mdb-ripple-color="dark">
+                            <fa-icon [icon]="faInstagram"></fa-icon>
+                        </a>
+
+                        <!-- Linkedin -->
+                        <a class="btn btn-link btn-floating btn-lg" href="#!" role="button" data-mdb-ripple-color="dark">
+                            <fa-icon [icon]="faLinkedin"></fa-icon>
+                        </a>
+                        <!-- Github -->
+                        <a class="btn btn-link btn-floating btn-lg" href="#!" role="button" data-mdb-ripple-color="dark">
+                            <fa-icon [icon]="faYoutube"></fa-icon>
+
+                        </a>
+                    </section>
+                    <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Copyright -->
+</footer>

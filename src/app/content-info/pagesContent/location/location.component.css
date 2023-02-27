@@ -1,0 +1,25 @@
+.title {
+    margin-bottom: 20px;
+}
+
+.title h3 {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.title h3::before {
+    content: '';
+    width: 9%;
+    height: 4px;
+    background: #dc3545 !important;
+    position: absolute;
+    bottom: -5px;
+}
+
+:host ::ng-deep {
+    @media only screen and (max-width: 768px) {
+        .map .map-container {
+            width: 500px !important;
+        }
+    }
+}

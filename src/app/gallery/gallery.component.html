@@ -1,0 +1,31 @@
+<div class="gallery__section">
+    <ng-container *ngFor="let image of _albums; let i=index ">
+        <div class="col-lg-9 col-md-9 col-xs-12 thumb" *ngIf="i === 0">
+            <img src="{{image.src}}" (click)="open(i)" />
+        </div>
+
+    </ng-container>
+
+    <ng-container>
+        <div class="small__gallery">
+            <div class="col-lg-12 col-md-12 col-xs-12" *ngFor="let image of _albums.slice(1); let i=index ">
+                <img src=" {{image.src}}" />
+            </div>
+        </div>
+
+    </ng-container>
+
+</div>
+
+<div class="row py-4 logo__container_block">
+    <div class="col-6 col-md-6 col-lg-6 logo__container">
+        <div class="" *ngFor="let imageLogo of logoContainerArray">
+            <img src="{{imageLogo.logo}}" alt="">
+        </div>
+    </div>
+    <div class="col-6 col-md-6 col-lg-6">
+        <div class="link__section">
+            <a href="#">www.google.com</a>
+        </div>
+    </div>
+</div>

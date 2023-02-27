@@ -1,0 +1,10 @@
+.navbar {
+    border-bottom: 1px solid #ededed;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.navbar a.nav-link {
+    font-weight: 600;
+    color: #000;
+}

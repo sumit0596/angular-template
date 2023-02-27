@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-12">
+        <div class="title">
+            <h3>Find Location</h3>
+        </div>
+        <div class="map">
+            <google-map height="400px" width="750px" [center]="center" [zoom]="zoom" (mapClick)="moveMap($event)" (mapMousemove)="move($event)">
+            </google-map>
+        </div>
+
+    </div>
+</div>

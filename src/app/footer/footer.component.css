@@ -1,0 +1,31 @@
+footer {
+    background-color: #bcc9c1;
+}
+
+ul.list-unstyled li a {
+    text-decoration: none;
+}
+
+section.social__container {
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+}
+
+section.social__container a {
+    padding: 0;
+    color: #fff;
+}
+
+h5,
+a.text-dark {
+    color: #fff !important;
+}
+
+.copyright div {
+    color: #fff;
+}
+
+.list-unstyled li {
+    margin: 20px 0px;
+}

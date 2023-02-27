@@ -1,0 +1,35 @@
+<div class="userProfile__section">
+    <h3>Leasing Executive</h3>
+    <div class="row mt-4" *ngFor="let userD of userData">
+        <div class="col-md-3 col-3">
+            <div class="profile__img">
+                <img src="{{userD.imgUrl}}" alt="">
+            </div>
+        </div>
+        <div class="col-md-9 col-9">
+            <div class="coantact__details">
+                <h5>{{userD.name}}</h5>
+                <p>
+                    <fa-icon [icon]=" faPhone "></fa-icon>
+                    {{userD.phone}}</p>
+                <p>
+                    <fa-icon [icon]="faEnvelope "></fa-icon>
+                    {{userD.email}}</p>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row mt-4 ">
+        <div class="col-6 col-md-6 ">
+            <div>
+                <fa-icon [icon]="faMessage "></fa-icon>
+                Send Message</div>
+        </div>
+        <div class="col-6 col-md-6 ">
+            <div>
+                <fa-icon [icon]="faEnvelope "></fa-icon>
+                Send Email</div>
+        </div>
+    </div>
+</div>

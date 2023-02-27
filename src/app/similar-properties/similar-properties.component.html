@@ -1,0 +1,50 @@
+<section class="my-5">
+    <div class="container-fluid px-5">
+        <div class="row">
+            <div class="col-12">
+                <p class="small__text">Check out</p>
+                <div class="title">
+                    <h3>Similar Properties</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12">
+                <div class="content-section implementation carousel-demo">
+                    <div class="card">
+                        <p-carousel [value]="images" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="0" [responsiveOptions]="responsiveOptions">
+                            <ng-template let-image pTemplate="item">
+                                <div class="item card">
+                                    <div class="imgBlockCard">
+
+                                        <img src="{{image.picture}}" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{image.random}}</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="row">
+                                            <div class="col-6 logobox">
+                                                <img src="/assets/logo/logoipsum-285.svg" alt="">
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="#" class="viewmorebtn">View<i class="pi pi-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </p-carousel>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <a href="#" class="viewmorebtn">View more properties<i class="pi pi-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>

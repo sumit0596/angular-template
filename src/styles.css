@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '~primeicons/primeicons.css';
+
+/* CSS FOR MAP RESPONSIVE  */
+
+@media only screen and (max-width: 768px) {
+    .map .map-container {
+        width: 500px !important;
+    }
+}

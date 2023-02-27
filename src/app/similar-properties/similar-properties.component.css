@@ -1,0 +1,72 @@
+.content-section.implementation.carousel-demo>.card {
+    border: none;
+}
+
+ul.p-carousel-indicators.p-reset {
+    display: none !important;
+}
+
+.item.card {
+    margin: 0 20px;
+}
+
+:host>>>button.p-ripple.p-element.p-carousel-prev.p-link,
+:host>>>button.p-ripple.p-element.p-carousel-next.p-link {
+    border: 1px solid #000;
+    background: none;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.title h3 {
+    position: relative;
+}
+
+.title h3::before {
+    content: '';
+    width: 9%;
+    height: 4px;
+    background: #dc3545 !important;
+    position: absolute;
+    bottom: -5px;
+}
+
+.small__text {
+    color: #b4b2b2;
+}
+
+.logobox img {
+    width: 100px;
+}
+
+a.viewmorebtn {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    justify-content: right;
+}
+
+a.viewmorebtn i.pi.pi-arrow-right {
+    border: 1px solid #000;
+    background: none;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 100px;
+}
+
+.item.card {
+    border: 1px solid #e9e9e9;
+    border-radius: 0;
+}
+
+.item.card img {
+    border-radius: 0;
+}
+
+.imgBlockCard {
+    height: 200px;
+    overflow: hidden;
+}
